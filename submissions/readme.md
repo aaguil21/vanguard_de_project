@@ -1,6 +1,6 @@
 ## Submission README
 
-This folder contaitns the files and scripts for Sportify API
+This folder contains the files and scripts for Sportify API
     Data Engineering Project.
 
 
