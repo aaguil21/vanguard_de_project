@@ -1,7 +1,7 @@
 ## Submission
 
-This folder contaitns the files and scripts for Spotify API
-    Data Engineering Project for Andres Aguilar
+This folder contains the files and scripts for Spotify API
+    Data Engineering Project by Andres Aguilar
 
 
 ### Environment Variables
@@ -43,12 +43,21 @@ In `Python_Modules` folder:
 
 * `data_viz.py` - functions for creating and saving plots
 
+### Python Requirements
 
-#### Data Format
+The following python packages are required to be installed to run the scripts in this repository:
+
+* `seaborn`
+* `spotipy`
+* `sqlite3`
+* `numpy`
+* `pandas`
+
+### Data Format
 
 The following tables describe the columns and their respective datatypes for tables in the Database
 
-`ARTIST`
+#### ARTIST
 
 | Column       |   Data Type  | Description                                                                           |
 |--------------|:------------:|---------------------------------------------------------------------------------------|
@@ -62,7 +71,7 @@ The following tables describe the columns and their respective datatypes for tab
 | type         |  varchar(50) | Object type, in this case: 'artist'                                                   |
 | artist_uri   | varchar(100) | The Spotify resource indentifier  for the artist                                      |
 
-`ALBUM`
+#### ALBUM
 
 | Column       |   Data Type  | Description                                             |
 |--------------|:------------:|---------------------------------------------------------|
@@ -76,7 +85,7 @@ The following tables describe the columns and their respective datatypes for tab
 | album_uri    | varchar(100) | The Spotify resource identifier for the album           |
 | artist_uri   | varchar(100) | The Spotify resource identifier  for the album's artist |
 
-`TRACK`
+#### TRACK
 
 | Column       |   Data Type  | Description                                           |
 |--------------|:------------:|-------------------------------------------------------|
@@ -90,7 +99,7 @@ The following tables describe the columns and their respective datatypes for tab
 | song_uri     | varchar(100) | The Spotify resource identifier  for the track        |
 | album_uri    |  varchar(50) | The Spotify resource identifier for the track's album |
 
-`TRACK_FEATURE`
+##### TRACK_FEATURE
 
 | Column           |   Data Type  | Description                                                                                                                                                               |
 |------------------|:------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
