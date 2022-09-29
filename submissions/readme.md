@@ -28,10 +28,10 @@ submissions
     └── spotify_db.py              # Database class
 
 ```
-The script for creating database with list of artists and wiriting View and Query statments
-is `main.py`
+The script for creating database with an input list of artists and wiriting View and Query statements
+is `main.py`. This is the only script to execute to run the project.
 
-In `Python_Modules` folder:
+The dependencies for running `main.py` are found in `Python_Modules` folder:
 
 * `spotify_db.py` - has the code for the custom database class using
     SQLite3 and class methods for creating, connecting to, inserting
