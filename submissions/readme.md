@@ -19,13 +19,13 @@ These can be created at [Spotify for Developers](https://developer.spotify.com/d
 ### File Structure
 
 ```
-submissions
-├── main.py
+submissions                        
+├── main.py                        #Script to run project
 ├── visualization.pdf
 └── Python_Modules
-    ├── data_ingestion.py          # Data ingestion and transformation
+    ├── data_ingestion.py          # Data ingestion and transformation functions
     ├── data_viz.py                # Plotting funtions
-    └── spotify_db.py              # Database class
+    └── spotify_db.py              # Database class and methods
 
 ```
 The script for creating database with an input list of artists and wiriting View and Query statements
