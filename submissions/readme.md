@@ -1,7 +1,7 @@
 ## Submission
 
-This folder contaitns the files and scripts for Sportify API
-    Data Engineering Project for Ander Aguilar
+This folder contaitns the files and scripts for Spotify API
+    Data Engineering Project for Andres Aguilar
 
 
 ### Environment Variables
@@ -38,7 +38,7 @@ In `Python_Modules` folder:
     and querying to the database.
 
 * `data_ingestion.py` - holds the functions for making the Spotify API calls,
-    ingestion of data, formatting and transfroming data, and creating the
+    ingestion of data, formatting and transforming data, and creating the 
     database tables for the given database.
 
 * `data_viz.py` - functions for creating and saving plots
